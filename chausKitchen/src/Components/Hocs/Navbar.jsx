@@ -14,7 +14,7 @@ const Navbar = () => {
         <a className="flex items-center gap-1 italic"  href="/">
           <img src={Logo} alt="logo" className='h-[50px]'></img>
           <h1 className='text-[#16B97A] md:text-4xl text-xl font-bold font-delicious'>Chau`s 
-          <span className='text-brightRed md:text-4xl text-xl  font-bold font-delicious ml-2'>Kitchen</span></h1> 
+          <span className='text-brightRed md:text-4xl text-xl  font-bold font-delicious ml-2'>BarbeQue</span></h1> 
         </a>
         
      
