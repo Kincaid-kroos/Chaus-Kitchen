@@ -1,14 +1,20 @@
 import './App.css'
 import Navbar from './Components/Hocs/Navbar.jsx';
+import Home from './Components/Pages/Home.jsx';
 
 const App = () => {
 
 
   return (
    <div>
-        <div>
+        
         <Navbar />
+        
+        <div id="home"> 
+        <Home />
         </div>
+       
+        
         
         
        

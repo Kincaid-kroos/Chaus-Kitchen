@@ -13,7 +13,8 @@ export default {
     },
     extend: {
       colors: {
-        brightRed: 'hsl(12, 88%, 69%)',
+
+        brightBlue: 'text-[#ff7b00]',
         greenBluish: 'text-[#16B97A]',
       },
       fontFamily: {
