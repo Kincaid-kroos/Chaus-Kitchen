@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
              {/*Item 3*/}
           <input type='text' placeholder='Search' 
-          className='hidden md:block p-3 rounded-full  text-white baseline'/>
+          className='hidden md:block p-3 rounded-br-3xl rounded-tl-3xl  text-white baseline'/>
       </div>
 
     </nav>

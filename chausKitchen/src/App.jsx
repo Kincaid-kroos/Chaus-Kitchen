@@ -1,6 +1,8 @@
 import './App.css'
 import Navbar from './Components/Hocs/Navbar.jsx';
 import Home from './Components/Pages/Home.jsx';
+import Contact from './Components/Pages/Contact';
+
 
 const App = () => {
 
@@ -13,6 +15,7 @@ const App = () => {
         <div id="home"> 
         <Home />
         </div>
+        <Contact />
        
         
         
