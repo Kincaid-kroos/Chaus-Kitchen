@@ -69,7 +69,7 @@ const Contact = () => {
 {/*Flex-container*/}
     <div className="  mx-auto flex  flex-col md:flex-row  p-10 md:space-x-20 space-y-5">
       {/*item a*/}
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
       <img src={contact} alt="contact img" className="md:h-[350px] md:w-[350px] rounded-full"/>
       </div>
        {/*item b*/}
