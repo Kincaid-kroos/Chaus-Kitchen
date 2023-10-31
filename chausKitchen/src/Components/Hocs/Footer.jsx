@@ -12,9 +12,14 @@ import { BsFacebook } from "react-icons/bs";
 const Footer = () => {
   const timeline = new Date().getFullYear();
 
+  
+
   return (
-    <div>
-    <div className=" mx-auto flex flex-col md:flex-row items-center sm:items-start px-10 mt-0 md:mt-10  md:space-x-48 space-x-15 space-y-2 md:space-y-0 ">
+
+     
+  <footer className="bg-[#d84141] text-[#ffffff]   mx-auto ">
+        {/*item 1*/}
+    <div className=" mx-auto flex flex-col md:flex-row  items-center  sm:items-center px-10 mt-0 md:mt-10  md:space-x-48 space-x-15 space-y-2 md:space-y-0 ">
         {/*item a*/}
       <div className="flex flex-col md:mt-0 space-y-5  md:w-1/3">
         <h2 className="font-bold text-[#ca7f42]">Chaus Barbaque</h2>
@@ -32,7 +37,7 @@ const Footer = () => {
               {/*item b*/}
       <div className="flex flex-col md:mt-0 space-y-5 md:w-1/3">
               <h2 className="font-bold text-[#ca7f42]">Quick Links</h2>
-        <ul>
+        <ul className="gap-2 flex-col justify-start" >
           <li>Home</li>
           <li>About Us</li>
           <li>Products</li>
@@ -65,10 +70,11 @@ const Footer = () => {
 
 </div>
 </div>
-<footer className='items-center text-[#5c9feb] mt-5'>
+    {/*item 2*/}
+<div className='items-center text-[#5c9feb] mt-5'>
           Copyright©{timeline}: || All rights reserved
-        </footer>
-    </div>
+        </div>
+    </footer>
   )
 }
 

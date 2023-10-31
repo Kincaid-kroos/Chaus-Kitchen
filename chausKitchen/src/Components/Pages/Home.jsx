@@ -4,7 +4,7 @@ import hero from '../Images/hero.jpg'
 
 const Home = () => {
   return (
-    <div id="home" className="mx-auto flex flex-col-reverse md:flex-row items-center px-6 mt-0 md:mt-10  md:space-x-48 space-x-15 space-y-2 md:space-y-0 ">
+    <div id="home" className="md:mx-20 flex flex-col-reverse md:flex-row items-center px-6 mt-0 md:mt-10  md:space-x-48 space-x-15 space-y-2 md:space-y-0 ">
       {/*item a*/}
       <div className="flex flex-col md:mt-0 space-y-5 md:w-1/2">
       <h1 className="text-[#ff7b00] md:text-5xl text-3xl font-bold text-center md:text-left">
