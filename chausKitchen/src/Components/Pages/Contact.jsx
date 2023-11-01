@@ -65,7 +65,7 @@ const Contact = () => {
   return (
     <div id="contact"
     className="bg-[#e4f2fc] mt-20 rounded-br-3xl rounded-tl-3xl">
-      <h1 className="md:text-5xl text-3xl text-[#030301] font-semibold">Send us a Mail</h1>
+      <h1 className="md:text-5xl text-3xl text-[#030301] font-semibold flex flex-col md:mx-20 items-center">Send us a Mail</h1>
 {/*Flex-container*/}
     <div className="  mx-auto flex  flex-col md:flex-row  p-10 md:space-x-20 space-y-5">
       {/*item a*/}
