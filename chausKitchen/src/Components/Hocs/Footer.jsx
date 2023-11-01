@@ -44,14 +44,14 @@ const Footer = () => {
             <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Contact</h2>
             <div className="flex  items-center gap-4">
               <BiPhoneCall className="text-[#62a735]" />
-              <p>Tassie Kincaid - 0701218138</p>
+              <p>Tassie Kincaid - +254701218138</p>
             </div>
           </div>
           <div>
             <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Customer Support</h2>
             <div className="flex items-center gap-4">
               <BiPhoneCall className="text-[#62a735]" />
-              <p>Tasha B - 0746940003</p>
+              <p>Tasha B - +254746940003</p>
             </div>
             <div className="flex items-center gap-4">
               <AiTwotoneMail className="text-[#62a735]" />
