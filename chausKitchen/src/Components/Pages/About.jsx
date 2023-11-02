@@ -19,19 +19,19 @@ const About = () => {
           </h2>
           
           <p className='text-gray-400 my-4 text-sm md:text-xl font-semibold  w-[90%] text-center md:text-left'>
-          This is a meal planning app that allows users to plan their meals for the week. 
-          They can also add recipes and ingredients to their shopping list.
-          I make amazing food ranging from African to American and everything in between. 
-          I have been cooking for over 10 years and I love to share my passion with others.
+          This is our Mombasa based Barbaque web app that allows users to book their meals for the week. 
+          They can also add recipes and ingredients to their dine list.
+          We make amazing food ranging from African to American and everything in between. 
+          We have been operating for over 10 years and we love to share our passion with others.
 
-I have services ranging from meal prep, in house and outdoor catering and cooking classes.
- I am also available for private events and parties.
+We have services ranging from hospitality, in house and outdoor catering and cooking classes.
+ We also do private events and parties.
 
           </p>
           <button className=" bg-[#ffa300] flex gap-2 font-normal md:font-bold cursor-pointer 
           rounded-tr-3xl rounded-bl-3xl hover:bg-[#16B97A] transition-all duration-300 text-white
            md:text-md text-sm py-6  px-4 md:px-8 md:py-4 w-[50%] ">
-              <p>Call Us</p> 
+              <p>Book Now</p> 
               <BiPhoneCall className="text-white text-xl" />
             </button>
           
