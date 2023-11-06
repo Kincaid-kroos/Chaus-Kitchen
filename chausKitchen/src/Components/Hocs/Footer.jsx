@@ -51,7 +51,7 @@ const Footer = () => {
             <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Customer Support</h2>
             <div className="flex items-center gap-4">
               <BiPhoneCall className="text-[#62a735]" />
-              <p>Dahlia Rhys - +254746940003</p>
+              <p>Dahlia Nicholson - +254746940003</p>
             </div>
             <div className="flex items-center gap-4">
               <AiTwotoneMail className="text-[#62a735]" />
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+  
       <div className="flex flex-col md:mx-20 items-center text-[#b19284] mt-10 ">
         Copyright©{timeline}: || All rights reserved
       </div>
