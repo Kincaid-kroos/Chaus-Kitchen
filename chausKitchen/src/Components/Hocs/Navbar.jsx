@@ -22,7 +22,7 @@ const Navbar = () => {
          {/*Item 1*/}
         <a className="flex items-center gap-1 italic"  href="/">
           <img src={Logo} alt="logo" className='h-[50px]'></img>
-          <h1 className='text-[#16B97A] md:text-4xl text-xl font-bold font-delicious'>Chau`s 
+          <h1 className='text-[#16B97A] md:text-4xl text-xl font-bold font-delicious'>Tassie`s 
           <span className='text-[#ff7b00] md:text-4xl text-xl  font-bold font-delicious ml-2'>Barbeque</span></h1> 
         </a>
         
