@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="md:mx-20  flex flex-col md:flex-row sm:items-center items-start px-10 mt-0 md:mt-10 md:space-x-32 space-x-15 space-y-2 md:space-y-0">
         {/* item 1 */}
         <div className="flex flex-col md:mt-0 space-y-2 md:w-1/3">
-          <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Chaus Barbaque</h2>
+          <h2 className="font-bold text-[#ca7f42] md:underline underline-offset-8">Tassie Barbaque</h2>
           <p>The best place to have your meals with family and friends</p>
 
           <div className="flex gap-4 items-center">
@@ -29,7 +29,7 @@ const Footer = () => {
 
         {/* item b */}
         <div className="flex flex-col sm:ml-4  md:mt-0 sm:mt-5 space-y-2 md:w-1/3 sm:w-full">
-          <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Quick Links</h2>
+          <h2 className="font-bold text-[#ca7f42] md:underline underline-offset-8">Quick Links</h2>
           <div className="flex flex-col ">
             <a href="#home">Home</a>
             <a href="#about">About Us</a>
@@ -41,14 +41,14 @@ const Footer = () => {
         {/* item c */}
         <div className="flex flex-col md:mt-0 space-y-2 md:w-1/3">
           <div>
-            <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Contact</h2>
+            <h2 className="font-bold text-[#ca7f42]  md:underline underline-offset-8">Contact</h2>
             <div className="flex  items-center gap-4">
               <BiPhoneCall className="text-[#62a735]" />
               <p>Tassie Kabaya - +254701218138</p>
             </div>
           </div>
           <div>
-            <h2 className="font-bold text-[#ca7f42] underline underline-offset-8">Customer Support</h2>
+            <h2 className="font-bold text-[#ca7f42] md:underline underline-offset-8">Customer Support</h2>
             <div className="flex items-center gap-4">
               <BiPhoneCall className="text-[#62a735]" />
               <p>Dahlia Nicholson - +254746940003</p>

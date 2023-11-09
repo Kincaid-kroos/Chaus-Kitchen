@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id="about" className='mt-10 py-6 px-16'>
       {/*flex items*/}
-      <div className="flex flex-col md:flex-row items-center mx-auto mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
+      <div className="flex flex-col md:flex-row  items-center sm:items-start mx-auto mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
         {/*item a*/}
         <div className=" flex flex-col md:w-1/2"> 
         <img  src={about} alt="about img" className="md:h-[400px] md:w-[400px] md:rounded-full rounded-tr-3xl rounded-bl-3xl"/>
