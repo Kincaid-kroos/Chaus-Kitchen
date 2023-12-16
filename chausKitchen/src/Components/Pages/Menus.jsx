@@ -93,7 +93,7 @@ import { FaStar } from 'react-icons/fa';
                ksh 750
              </button>
              <button
-               onClick={() => filterPrice('Ksh 960')}
+               onClick={() => filterPrice('ksh 960')}
                className='m-1 border-orange-600 text-white bg-[#7c2525] rounded-full py-1 px-4 hover:bg-[#16B97A]'
              >
                ksh 960
