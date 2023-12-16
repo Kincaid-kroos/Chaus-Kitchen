@@ -1,5 +1,5 @@
 
- 
+import { FaStar } from 'react-icons/fa';
  import  { useState } from 'react';
  import data from "../Hocs/Data.jsx"; 
  
@@ -109,17 +109,30 @@
              <img
                src={item.image}
                alt={item.name}
-               className='w-full h-[250px] object-cover rounded-tl-3xl rounded-br-3xl'
+               className='w-full h-[200px] object-cover rounded-tl-3xl rounded-br-3xl'
              />
-             <div className='flex justify-between px-2 py-4'>
-               <p className='font-bold'>{item.name}</p>
+             <div className='pb-4 pt-2 ml-2'>
+
+             <div className="flex gap-2">
+                  {/* React Icons for stars */}
+                <div className='flex gap-1 '>
+                 <FaStar className='text-[#7eec52]' />
+                 <FaStar className='text-[#7eec52]' />
+                 <FaStar className='text-[#7eec52]' />
+                 <FaStar className='text-[#7eec52]' />
+                 <FaStar className='text-[#c5b2b2]' />
+                 </div>
+                 <p>4.5</p>
+              </div>
+               <p className='font-bold text-left'>{item.name}</p>
                <p>
-                 <span className='bg-[#7c2525] hover:bg-[#16B97A]  text-white p-1 rounded-full'>
+                 <span className='bg-[#7c2525] hover:bg-[#16B97A]  text-white p-1 rounded-full text-left pt-1'>
                    {item.price}
                  </span>
                </p>
+
              </div>
-           </div>
+          </div>
          ))}
        </div>
      </div>
