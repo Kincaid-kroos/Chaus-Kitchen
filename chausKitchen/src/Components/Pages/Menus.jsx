@@ -26,7 +26,7 @@
    };
  
    return (
-     <div className='md:mx-20 px-12 py-16'>
+     <div id= "menu" className='md:mx-20 px-12 py-16'>
        <h1 className='text-[#7ab916] font-bold text-4xl text-center'>
          Popular Menus
        </h1>
