@@ -27,7 +27,7 @@ import { FaStar } from 'react-icons/fa';
  
    return (
      <div id= "menu" className='md:mx-20 px-12 py-16'>
-       <h1 className='text-[#7ab916] font-bold text-4xl text-center'>
+       <h1 className='text-[#7ab916] font-bold text-4xl text-left md:text-center'>
          Popular Menus
        </h1>
       
@@ -35,7 +35,7 @@ import { FaStar } from 'react-icons/fa';
        <div className='flex flex-col lg:flex-row justify-between'>
          {/* Fliter Type */}
          <div className='pb-4'>
-           <p className='font-bold text-gray-700 text-3xl mt-4'>Filter by Category</p>
+           <p className='font-bold text-gray-700 text-2xl md:text-3xl mt-4'>Filter by Category</p>
            <div className='flex justfiy-between flex-wrap gap-2'>
              <button
                onClick={() => setFoods(data)}
@@ -72,8 +72,8 @@ import { FaStar } from 'react-icons/fa';
  
          {/* Filter Price */}
          <div className='pb-4'> 
-           <p className='font-bold text-gray-700 text-3xl mt-4'>Filter by Price</p>
-           <div className='flex justify-between'>
+           <p className='font-bold text-gray-700 text-2xl md:text-3xl mt-4'>Filter by Price</p>
+           <div className='flex justify-between gap-1 md:gap-2'>
              <button
                onClick={() => filterPrice('ksh 200')}
                className='m-1 border-orange-600 text-white bg-[#6a38c7] rounded-full py-1 px-4 hover:bg-[#16B97A]'
@@ -109,7 +109,7 @@ import { FaStar } from 'react-icons/fa';
              <img
                src={item.image}
                alt={item.name}
-               className='w-full h-[200px] object-cover rounded-tl-3xl rounded-br-3xl'
+               className='w-full h-[200px] object-cover rounded-t-lg md:rounded-tl-3xl md:rounded-br-3xl'
              />
              <div className='pb-4 pt-2 ml-2'>
 
