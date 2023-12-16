@@ -6,6 +6,8 @@ import Footer from './Components/Hocs/Footer.jsx';
 import Home from './Components/Pages/Home.jsx';
 import Contact from './Components/Pages/Contact';
 import About from './Components/Pages/About.jsx';
+import Testimonials from './Components/Pages/Testimonials.jsx';
+
 
 
 
@@ -21,6 +23,7 @@ const App = () => {
         <Home />
 
         <About />
+        <Testimonials />
         <Contact />
         <Footer />
         </div>
