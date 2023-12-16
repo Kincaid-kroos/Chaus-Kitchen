@@ -4,11 +4,11 @@ import { BiPhoneCall } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div id="about" className='mt-10 py-6 px-16'>
+    <div id="about" className='mt-10 py-4 px-2'>
       {/*flex items*/}
       <div className="flex flex-col md:flex-row  items-center mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
         {/*item a*/}
-        <div className=" flex flex-col md:w-1/2 "> 
+        <div className=" flex flex-col md:w-1/2 md:pl-24 "> 
         <img  src={about} alt="about img" className="md:h-[400px] md:w-[400px] rounded-full object-cover"/>
 
         </div>
