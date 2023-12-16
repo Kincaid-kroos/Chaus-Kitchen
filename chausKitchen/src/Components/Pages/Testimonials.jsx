@@ -22,9 +22,9 @@ const Testimonials = () => {
         className="-mt-14 w-20 h-20 rounded-full object-cover" alt="" />
         <h5 className="text-lg font-bold text-[#ff7b00]">Ali Hussein</h5>
         <p className="text-md text-[#7e6b6b] pb-8 font-semibold">
-          “We have been able to cancel so many other subscriptions since
-          using CVV Shop. There is no more cross-channel confusion and
-          everyone is much more focused.”
+        “Chaus BBQ is a hidden treasure in Mombasa! The beef ribs are succulent,
+         and the secret sauce adds a unique kick.
+         The friendly staff and cozy atmosphere make it the perfect spot to enjoy mouthwatering BBQ”
         </p>
       </div>
 
@@ -33,9 +33,8 @@ const Testimonials = () => {
         <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg" className="-mt-14 w-20 h-20 rounded-full object-cover" alt="" />
         <h5 className="text-lg font-bold text-[#ff7b00]">Ann Kandie</h5>
         <p className="text-md  text-[#7e6b6b] pb-12 font-semibold">
-        “CVV Shop is the ultimate high tech modern shop. The ability to make the world a little place
-          in terms of the currency access status is what is the most amazing thing. Would recommend 
-          anyone all day”
+        “I stumbled upon Chaus BBQ during my visit to Mombasa, and I&apos;m so glad I did! The ambiance is relaxed, the service is excellent,
+         and the lamb chops are a taste of heaven. An absolute gem in the heart of Mombasa”
          
         </p> 
       </div>
@@ -45,8 +44,8 @@ const Testimonials = () => {
         <img src="https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg" className="-mt-14 w-20 h-20 rounded-full object-cover" alt="" />
         <h5 className="text-lg font-bold text-[#ff7b00]">Richard Martin</h5>
         <p className="text-md text-[#7e6b6b] pb-8 font-semibold">
-        “CVV Shop has supercharged my life. Right now i own a few businesses in town
-          and i&apos;m driving my first car”
+        “Chaus BBQ delivers the authentic taste of BBQ with a coastal twist. The chicken skewers are a flavor explosion, and the samak roasts bring
+         out the best of local seafood. Five stars for a memorable dining experience!”
          
         </p>
       </div>
