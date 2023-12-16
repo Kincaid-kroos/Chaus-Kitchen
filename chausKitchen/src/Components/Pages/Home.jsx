@@ -36,7 +36,15 @@ const Home = () => {
       </div>
       </div>
       {/*item b*/}
-      <div className="md:w-1/2 "> 
+      <div className="md:w-1/2 relative"> 
+          <div className="absolute justify-center mt-10 flex flex-col ">
+            <h1 className="px-4 text-4xl font-bold">The <span className="text-[#16B97A]">
+              Best</span></h1>
+            <h1 className="px-4 text-4xl font-bold"> <span className="text-orange-600">
+              Foods </span>Barbeque </h1>
+
+          </div>
+      
       <img src={hero} alt="hero img" className="md:h-[480px] md:w-[420px] rounded-tr-3xl rounded-bl-3xl"/>
         
       </div>

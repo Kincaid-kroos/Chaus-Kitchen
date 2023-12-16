@@ -1,4 +1,4 @@
-import about from '../Images/Logo.jpg';
+import about from '../Images/about.jpg';
 import { BiPhoneCall } from "react-icons/bi";
 
 
