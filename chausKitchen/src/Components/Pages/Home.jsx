@@ -8,7 +8,7 @@ const Home = () => {
       {/*item a*/}
       <div className="flex flex-col md:mt-0 space-y-5 md:w-1/2">
       <h1 className="text-[#ff7b00] md:text-5xl text-3xl font-bold text-center md:text-left">
-            Welcome to Tassie`s Berbaque, Mombasa
+            Welcome to Chau`s Berbaque, Mombasa
           </h1>
 
           <p className="text-[#16B97A] uppercase font-bold text-xl md:text-5xl text-center md:text-left">
