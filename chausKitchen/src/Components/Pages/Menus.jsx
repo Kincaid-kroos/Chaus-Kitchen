@@ -115,14 +115,14 @@ import { FaStar } from 'react-icons/fa';
 
              <div className="flex gap-2">
                   {/* React Icons for stars */}
-                <div className='flex gap-1 '>
-                 <FaStar className='text-[#7eec52]' />
-                 <FaStar className='text-[#7eec52]' />
-                 <FaStar className='text-[#7eec52]' />
-                 <FaStar className='text-[#7eec52]' />
-                 <FaStar className='text-[#c5b2b2]' />
+                <div className='flex  '>
+                 <FaStar className='text-[#7eec52] size={20}' />
+                 <FaStar className='text-[#7eec52] size={20}' />
+                 <FaStar className='text-[#7eec52] size={20}' />
+                 <FaStar className='text-[#7eec52] size={20}' />
+                 <FaStar className='text-[#c5b2b2] size={20}' />
                  </div>
-                 <p>4.5</p>
+                 <h1>4.5</h1>
               </div>
                <p className='font-bold text-left'>{item.name}</p>
                <p>

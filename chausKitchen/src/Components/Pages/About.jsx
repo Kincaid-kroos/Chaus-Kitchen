@@ -6,14 +6,14 @@ const About = () => {
   return (
     <div id="about" className='mt-10 py-6 px-16'>
       {/*flex items*/}
-      <div className="flex flex-col md:flex-row  items-center sm:items-start mx-auto mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
+      <div className="flex flex-col md:flex-row  items-center mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
         {/*item a*/}
-        <div className=" flex flex-col md:w-1/2"> 
+        <div className=" flex flex-col md:w-1/2 "> 
         <img  src={about} alt="about img" className="md:h-[400px] md:w-[400px] rounded-full object-cover"/>
 
         </div>
          {/*item b*/}
-         <div className='flex flex-col md:w-1/2 mt-2 sm:items-start'>
+         <div className='ml-2 flex flex-col md:w-1/2 mt-2 border shadow-lg'>
          <h2 className="font-bold text-4xl  text-left  md:text-7xl text-[#7ab916]">
             About Us
           </h2>
