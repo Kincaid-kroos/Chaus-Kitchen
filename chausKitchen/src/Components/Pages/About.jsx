@@ -6,15 +6,15 @@ const About = () => {
   return (
     <div id="about" className='mt-10 py-6 px-16'>
       {/*flex items*/}
-      <div className="flex flex-col md:flex-row  items-center sm:items-start mx-auto mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
+      <div className="flex flex-col-reverse md:flex-row  items-center sm:items-start mx-auto mt-0 md:mt-10  md:space-x-16 space-x-10 space-y-2 md:space-y-0 ">
         {/*item a*/}
         <div className=" flex flex-col md:w-1/2"> 
         <img  src={about} alt="about img" className="md:h-[400px] md:w-[400px] md:rounded-full rounded-tr-3xl rounded-bl-3xl"/>
 
         </div>
          {/*item b*/}
-         <div className='flex flex-col md:w-1/2 mt-0'>
-         <h2 className="font-bold text-md text-center md:text-left  md:text-7xl text-[#7ab916]">
+         <div className='flex flex-col md:w-1/2 mt-2 sm:items-start'>
+         <h2 className="font-bold text-4xl text-center md:text-left  md:text-7xl text-[#7ab916]">
             About Us
           </h2>
           
@@ -28,9 +28,9 @@ We have services ranging from hospitality, in house and outdoor catering and coo
  We also do private events and parties.
 
           </p>
-          <button className=" bg-[#ffa300] flex gap-2 font-normal md:font-bold cursor-pointer 
-          rounded-tr-3xl rounded-bl-3xl hover:bg-[#16B97A] transition-all duration-300 text-white
-           md:text-md text-sm py-6  px-4 md:px-8 md:py-4 w-[50%] ">
+          <button className=" bg-[#ffa300] flex gap-2 font-normal md:font-bold cursor-pointer animate-bounce
+          rounded-tr-2xl rounded-bl-2xl hover:bg-[#16B97A] transition-all duration-300 text-white
+           md:text-md text-sm py-3  px-6 md:px-8 md:py-4 w-[50%] ">
               <p>Book Now</p> 
               <BiPhoneCall className="text-white text-xl" />
             </button>

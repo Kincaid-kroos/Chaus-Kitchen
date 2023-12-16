@@ -23,7 +23,7 @@ const Home = () => {
            <div className="flex md:gap-24 gap-8">
             <button className=" bg-[#7ab916] flex gap-2 font-normal md:font-semibold cursor-pointer rounded-tr-3xl rounded-bl-3xl hover:bg-[#FFA300] transition-all duration-300 text-white md:text-md text-sm py-2  px-4 md:px-8 md:py-4 ">
               <p>Follow Us on Instagram</p> 
-              <BsArrowRight className="text-white text-xl" />
+              <BsArrowRight className="text-white text-xl animate-ping" />
             </button>
 
             <div className="flex quicksand items-center gap-2">
