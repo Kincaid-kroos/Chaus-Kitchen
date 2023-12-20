@@ -34,7 +34,7 @@ const Testimonials = () => {
         <h5 className="text-lg font-bold text-[#ff7b00]">Anna Brenda</h5>
         <p className="text-md  text-[#7e6b6b] pb-12 font-semibold">
         “I stumbled upon Chaus BBQ during my visit to Mombasa, and I&apos;m so glad I did! The ambiance is relaxed, the service is excellent,
-         and the lamb chops are a taste of heaven. An absolute gem in the heart of Mombasa”
+         and the lamb chops are a taste of heaven cpmpletely. An absolute gem in the heart of Mombasa City”
          
         </p> 
       </div>
